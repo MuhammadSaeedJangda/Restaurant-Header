@@ -1,0 +1,129 @@
+.navbar {
+  display: grid;
+  grid-template-areas: "left-icon heading icons";
+  grid-template-columns: auto 2fr 1fr;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.logo {
+  max-width: 100%;
+  margin-left: 90px;
+}
+
+.search-bar {
+  background-color: #f5f5f5;
+  color: black;
+  height: 42px;
+  margin: 0;
+  padding: 0 100px 0 20px;
+  width: 70%;
+  float: left;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: var(--font-body-family);
+  border: 0;
+  margin-left: 386px;
+  margin-top: -73px;
+}
+
+.search-bar_submit {
+  border: medium none;
+  display: block;
+  height: 42px;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  margin-left: 751px;
+  margin-top: -73px;
+  border-radius: 0 5px 5px 0;
+  font-weight: 500;
+  background-color: #c00a27;
+  color: white;
+  font-weight: bold;
+}
+.search-bar_submit:hover {
+  background-color: #c00a27;
+  color: #ffffff;
+}
+.header-service-title {
+  margin-left: 37px;
+  margin-top: -36px;
+}
+
+.header-service-title0 {
+  margin-left: 37px;
+  margin-top: -1px;
+}
+
+.call_icon {
+  font-size: 2rem;
+  color: #c00a27;
+}
+
+.call {
+  margin-left: 277px;
+  margin-top: -75px;
+}
+
+.account {
+  margin-left: 51px;
+  margin-top: -75px;
+}
+
+.account_icon {
+  font-size: 2rem;
+  color: #c00a27;
+}
+
+.header-service-title2 {
+  margin-left: 37px;
+  margin-top: -36px;
+}
+
+.header-service-title4 {
+  margin-left: 37px;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin-left: 55px;
+  }
+
+  .search-bar {
+    height: 44px;
+    margin-left: 90px;
+    width: 31rem;
+    margin-top: -7px;
+  }
+
+  .search-bar_submit {
+    height: 44px;
+    margin-left: 484px;
+    margin-top: -7px;
+  }
+
+  .call {
+    margin-left: 218px;
+    display: none;
+  }
+
+  .account {
+    margin-left: -125px;
+    margin-top: -75px;
+    width: 10rem;
+  }
+
+  .header-service-title2 {
+    margin-left: 37px;
+    margin-top: -36px;
+  }
+
+  .header-service-title4 {
+    margin-left: 37px;
+    margin-top: 2px;
+  }
+}
